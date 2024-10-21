@@ -66,19 +66,18 @@ To create a new account, follow these steps:
 \end{enumerate}
 \newpage
 % Example of how to include an image with caption and reference
-\begin{figure}[h] 
-    \centering
-    \caption {example}
-    \includegraphics[width=0.7\textwidth]{11.jpg} % Example image file
-    \caption{Account Creation Screen} % Figure caption
-    \label{fig:account_creation} % Label for referencing in the text
-\end{figure}
+
 
 \begin{figure}[h] 
     \centering
-    \caption {example}
     \includegraphics[width=0.7\textwidth]{22.jpg} % Example image file
     \caption{Account Creation Screen} % Figure caption
+    \label{fig:account_creation} % Label for referencing in the text
+\end{figure}
+\begin{figure}[h] 
+    \centering
+    \includegraphics[width=0.7\textwidth]{11.jpg} % Example image file
+    \caption{Create new Account} % Figure caption
     \label{fig:account_creation} % Label for referencing in the text
 \end{figure}
 \newpage
@@ -90,7 +89,6 @@ After logging in, you can:
     \item \textbf{Withdraw Money}: Ensure sufficient balance before making a withdrawal. % Feature 2: Withdraw \item \textbf{Check Balance}: View your current balance for any account. % Feature 3: Check balance
 \end{itemize}
 
-\newpage
 
 % Troubleshooting and Support
 \chapter{Troubleshooting and Support} % Fourth chapter, labeled as "Troubleshooting and Support"
